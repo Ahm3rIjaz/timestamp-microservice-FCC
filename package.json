@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice-fcc",
+  "version": "1.0.0",
+  "description": "Timestamp microservice that converts the date to unix and UTC timestamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahm3rIjaz/timestamp-microservice-FCC.git"
+  },
+  "author": "Ahm3rIjaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahm3rIjaz/timestamp-microservice-FCC/issues"
+  },
+  "homepage": "https://github.com/Ahm3rIjaz/timestamp-microservice-FCC#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
